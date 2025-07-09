@@ -564,7 +564,7 @@ header {
 }
 
 /*=============== BREAKPOINTS ===============*/
-/* For Small devices */
+/* For Small Devices */
 @media screen and (max-width: 340px) {
   .container {
     margin-left: 1rem;
@@ -633,7 +633,7 @@ header {
   }
 }
 
-/* For Medium devices */
+/* For Medium Devices */
 @media screen and (min-width: 576px) {
   .nav__menu {
     width: 342px;
@@ -665,7 +665,7 @@ header {
   }
 }
 
-/* For Large devices */
+/* For Large Devices */
 @media screen and (min-width: 1023px) {
   .section {
     padding: 7rem 0 1rem;
