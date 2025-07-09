@@ -16,7 +16,7 @@
       rel="stylesheet" />
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -167,7 +167,51 @@
       </section>
 
       <!--==================== PRODUCTS ====================-->
-      <section class="products section" id="products"></section>
+      <section class="products section" id="products">
+        <h2 class="section__title">Meilleurs Produits</h2>
+        <div class="products__container container swiper">
+          <div class="swiper-wrapper">
+            <article class="products__card swiper-slide">
+              <img
+                src="assets/img/product1.png"
+                alt="image produit"
+                class="products__img" />
+              <h2 class="products__title">Veste Gotland noire</h2>
+              <span class="products__price">124,99 €</span>
+            </article>
+            <article class="products__card swiper-slide">
+              <img
+                src="assets/img/product2.png"
+                alt="image produit"
+                class="products__img" />
+              <h2 class="products__title">Short de sport noir</h2>
+              <span class="products__price">34,99 €</span>
+            </article>
+            <article class="products__card swiper-slide">
+              <img
+                src="assets/img/product3.png"
+                alt="image produit"
+                class="products__img" />
+              <h2 class="products__title">Veste matelassée Knox</h2>
+              <span class="products__price">89,99 €</span>
+            </article>
+            <article class="products__card swiper-slide">
+              <img
+                src="assets/img/product4.png"
+                alt="image produit"
+                class="products__img" />
+              <h2 class="products__title">Pantalon de sport bleu</h2>
+              <span class="products__price">69,99 €</span>
+            </article>
+          </div>
+          <div class="swiper-button-next">
+            <i class="ri-arrow-right-line"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="ri-arrow-left-line"></i>
+          </div>
+        </div>
+      </section>
 
       <!--==================== BRANDS ====================-->
       <section class="brand section"></section>
@@ -182,7 +226,7 @@
     <script src=""></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
