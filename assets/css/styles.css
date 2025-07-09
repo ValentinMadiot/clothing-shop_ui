@@ -1,12 +1,8 @@
-/*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap");
 
-/*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
 
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
   --bg-color: hsl(220, 18%, 78%);
   --bg-color-light: hsl(220, 18%, 86%);
   --title-color: hsl(220, 8%, 10%);
@@ -15,24 +11,20 @@
   --body-color: hsl(220, 18%, 99%);
   --container-color: hsl(220, 18%, 97%);
 
-  /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'Lora', serif;
+  --body-font: "Lora", serif;
 
   --biggest-font-size: 2.25rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
 
-  /*========== Font weight ==========*/
   --font-regular: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
 }
@@ -44,8 +36,8 @@
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
   }
 }
 
@@ -65,10 +57,12 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: .4s; /*For animation dark mode*/
+  transition: 0.4s; /*For Animation Dark Mode*/
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
@@ -89,15 +83,12 @@ img {
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
 
-
 /*========== Button Dark/Light ==========*/
-
 
 /*========== 
     Color changes in some parts of 
     the website, in dark theme 
 ==========*/
-
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
@@ -122,63 +113,44 @@ img {
 }
 
 .main {
-  overflow: hidden; /* For animation ScrollReveal */
+  overflow: hidden; /* For Animation ScrollReveal */
 }
 
 /*=============== HEADER & NAV ===============*/
 
+/* Change Background Header */
 
-/* Change background header */
-
-
-/* Active link */
-
+/* Active Link */
 
 /*=============== HOME ===============*/
 
-
 /*=============== BUTTON ===============*/
-
 
 /*=============== NEW ===============*/
 
-
 /*=============== COLLECTION ===============*/
-
 
 /*=============== PRODUCTS ===============*/
 
-
-/* Swiper class */
-
+/* Swiper Class */
 
 /*=============== BRANDS ===============*/
 
-
 /*=============== FOOTER ===============*/
-
 
 /*=============== SCROLL BAR ===============*/
 
-
 /*=============== SCROLL UP ===============*/
-
 
 /* Show Scroll Up*/
 
-
 /*=============== BREAKPOINTS ===============*/
-/* For small devices */
+/* For Small devices */
 
+/* For Medium devices */
 
-/* For medium devices */
+/* For Large devices */
 
+/* For 2K Resolutions (2048 x 1152, 2048 x 1536) */
 
-/* For large devices */
-
-
-/* For 2K resolutions (2048 x 1152, 2048 x 1536) */
-
-
-/* For 4K resolutions (3840 x 2160, 4096 x 2160) */
-
+/* For 4K Resolutions (3840 x 2160, 4096 x 2160) */
