@@ -227,6 +227,7 @@ header {
 
 /*=============== HOME ===============*/
 .home {
+  min-height: 100vh;
   background-color: var(--bg-color);
   overflow: hidden;
   transition: 0.4s; /*For Animation Dark Mode*/
